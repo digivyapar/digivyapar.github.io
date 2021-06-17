@@ -17,7 +17,7 @@ body {
   font-family: "Poppins", sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #121212;
+  color: #f6fff8;
   overflow-x: hidden;
 }
 
@@ -99,7 +99,7 @@ p {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
-  color: #121212;
+  color: #f6fff8;
   margin: 0px;
 }
 
@@ -119,7 +119,7 @@ p {
 .section-title .title {
   font-size: 44px;
   font-weight: 500;
-  color: #121212;
+  color: #f6fff8;
   line-height: 55px;
 }
 @media (max-width: 767px) {
@@ -1718,7 +1718,7 @@ p {
 ===========================*/
 .about-area {
   position: relative;
-  background-color: #2b2928;
+  background-color: #181615;
   padding-top: 100px;
   padding-bottom: 100px;
 }
@@ -1726,7 +1726,7 @@ p {
   font-size: 44px;
   font-weight: 600;
   line-height: 55px;
-  color: #121212;
+  color: #f6fff8;
 }
 @media (max-width: 767px) {
   .about-area .section-title .title {
@@ -1743,7 +1743,7 @@ p {
 .about-area .section-title .text {
   font-size: 20px;
   line-height: 25px;
-  color: #121212;
+  color: #f6fff8;
   margin-top: 8px;
 }
 @media (max-width: 767px) {
@@ -1779,11 +1779,11 @@ p {
   font-size: 20px;
   font-weight: 600;
   line-height: 25px;
-  color: #121212;
+  color: #f6fff8;
 }
 .single-about .about-content .text {
   font-size: 16px;
-  color: #121212;
+  color: #f6fff8;
   margin-top: 16px;
 }
 
@@ -1875,7 +1875,7 @@ p {
   font-size: 24px;
   font-weight: 500;
   line-height: 30px;
-  color: #121212;
+  color: #f6fff8;
 }
 .about-content-2 .about-content .text {
   font-size: 14px;
@@ -1886,7 +1886,7 @@ p {
 
 /*===== ABOUT 3 =====*/
 .about-area-3 {
-  background-color: #2b2928;
+  background-color: #181615;
   padding-top: 50px;
   padding-bottom: 100px;
 }
@@ -1957,6 +1957,7 @@ p {
 .portfolio-area {
   padding-top: 90px;
   padding-bottom: 100px;
+  background-color: #100f0e;
 }
 
 .portfolio-menu ul li {
@@ -2130,13 +2131,13 @@ p {
        25.SERVICES css 
 ===========================*/
 .services-area {
-  background-color: #2b2928;
+  background-color: #2f2b2a;
   padding-top: 115px;
   padding-bottom: 120px;
 }
 
 .single-services {
-  background-color: #2b2928;
+  background-color: #181615;
   padding: 50px 30px;
   border-radius: 5px;
   -webkit-transition: all 0.3s ease-out 0s;
@@ -2192,7 +2193,7 @@ p {
       16.PRICING css 
 ===========================*/
 .pricing-area {
-  background-color: #2b2928;
+  background-color: #181615;
   padding-top: 90px;
   padding-bottom: 100px;
 }
@@ -2209,7 +2210,7 @@ p {
   border-radius: 8px;
   position: relative;
   overflow: hidden;
-  background-color: #464a46;
+  background-color: #c3baba;
 }
 .pricing-style-one .pricing-icon img {
   width: 200px;
@@ -2523,7 +2524,7 @@ p {
 .testimonial-area {
   padding-top: 100px;
   padding-bottom: 70px;
-  background-color: #2b2928;
+  background-color: #100f0e;
 }
 
 .testimonial-2 {
@@ -2538,7 +2539,8 @@ p {
   box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.1);
 }
 .single-testimonial .testimonial-image img {
-  width: 90px;
+  width: 240px;
+  height: 250px;
   border-radius: 50%;
   display: inline-block;
 }
@@ -2733,7 +2735,7 @@ p {
 .contact-area {
   padding-top: 95px;
   padding-bottom: 100px;
-  background-color: #2b2928;
+  background-color: #181615;
 }
 
 .form-message.error,
@@ -2780,19 +2782,19 @@ p {
 .single-contact-box .box-content .box-title {
   font-size: 28px;
   line-height: 35px;
-  color: #121212;
+  color: #f6fff8;
 }
 .single-contact-box .box-content .text {
   font-size: 14px;
   line-height: 20px;
-  color: #121212;
+  color: #f6fff8;
   margin-top: 16px;
 }
 
 .contact-two .contact-title {
   font-size: 24px;
   font-weight: 600;
-  color: #121212;
+  color: #f6fff8;
 }
 .contact-two .text {
   font-size: 16px;
@@ -2810,7 +2812,7 @@ p {
 }
 .contact-two .contact-info li i {
   margin-right: 5px;
-  color: #121212;
+  color: #f6fff8;
 }
 
 .contact-map .gmap_canvas iframe {
@@ -2887,7 +2889,7 @@ p {
 .footer-area .footer-widget {
   padding-top: 90px;
   padding-bottom: 120px;
-  background-color: #2b2928;
+  background-color: #100f0e;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .footer-area .footer-widget {
@@ -2905,7 +2907,7 @@ p {
   font-size: 14px;
   font-weight: 700;
   line-height: 18px;
-  color: #6c6c6c;
+  color: #f6fff8;
 }
 .footer-area .footer-widget .footer-link {
   margin-top: 32px;
@@ -2916,7 +2918,7 @@ p {
 .footer-area .footer-widget .footer-link ul li a {
   font-size: 16px;
   line-height: 24px;
-  color: #121212;
+  color: #7A7A7A;
   margin-top: 16px;
   font-weight: 500;
   -webkit-transition: all 0.3s ease-out 0s;
@@ -2931,10 +2933,10 @@ p {
 .footer-area .footer-copyright {
   padding-top: 13px;
   padding-bottom: 23px;
-  background-color: #2b2928;
+  background-color: #100f0e;
 }
 .footer-area .footer-copyright .copyright .text {
-  color: #121212;
+  color: #f6fff8;
 }
 .footer-area .footer-copyright .social li {
   display: inline-block;
@@ -2956,7 +2958,7 @@ p {
   color: #006494;
 }
 .footer-area.footer-dark {
-  background-color: #121212;
+  background-color: #100f0e;
 }
 .footer-area.footer-dark .footer-widget .footer-title {
   color: #2b2928;
