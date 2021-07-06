@@ -1308,7 +1308,7 @@ p {
   line-height: 24px;
   font-weight: 700;
   padding: 11px 16px;
-  color: #181615;
+  color: #fff;
   text-transform: uppercase;
   position: relative;
   border-radius: 5px;
@@ -1341,6 +1341,16 @@ p {
 .sidebar-right .sidebar-content .sidebar-social ul li a {
   font-size: 32px;
   color: #ff8800;
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+}
+
+.sidebar-right .sidebar-content .sidebar-social ul li a:hover {
+  font-size: 32px;
+  color: #fff;
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
   -ms-transition: all 0.3s ease-out 0s;
@@ -1412,7 +1422,7 @@ p {
   .carousel-title {
   font-size: 44px;
   font-weight: 700;
-  color: #181615;
+  color: #ffea00;
   line-height: 55px;
 }
 @media (max-width: 767px) {
@@ -1470,8 +1480,8 @@ p {
   .carousel-btn
   li
   a.rounded-one {
-  border-color: #181615;
-  color: #181615;
+  border-color: #ffea00;
+  color: #ffea00;
 }
 .slider-area
   .bd-example
@@ -1490,7 +1500,7 @@ p {
   width: auto;
   height: auto;
   font-size: 70px;
-  color: #181615;
+  color: #fff;
   -webkit-transform: translateY(-50%);
   -moz-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
@@ -1564,7 +1574,7 @@ p {
 }
 .slider-area .bd-example .carousel .carousel-indicators li.active {
   width: 16px;
-  background-color: #181615;
+  background-color: #ffea00;
   border-radius: 5px;
 }
 .slider-area .bd-example .carousel:hover .carousel-control-prev {
@@ -1717,9 +1727,14 @@ p {
 /*===========================
          4.ABOUT css 
 ===========================*/
-.hrline{
+.hrline {
   border: 1px solid #ff8800;
 }
+
+.services_list {
+  font-size: 43px;
+}
+
 .about-area {
   position: relative;
   background-color: #181615;
@@ -2541,6 +2556,7 @@ p {
   -webkit-box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.1);
   box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 40px;
 }
 .single-testimonial .testimonial-image img {
   width: 240px;
@@ -2673,23 +2689,21 @@ p {
 .client-logo-2 {
   background-color: #2b2928;
 }
-#client1 img{
+#client1 img {
   padding-right: 20px;
   height: 150px;
   width: 210px;
-  
 }
-#client2 img{
+#client2 img {
   padding-left: 10px;
   padding-right: 20px;
   height: 150px;
 }
-#client3 img{
+#client3 img {
   height: 150px;
   padding-right: 20px;
-
 }
-#client4 img{
+#client4 img {
   height: 150px;
 }
 
