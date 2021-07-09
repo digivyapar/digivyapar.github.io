@@ -1731,10 +1731,6 @@ p {
   border: 1px solid #ff8800;
 }
 
-.services_list {
-  font-size: 43px;
-}
-
 .about-area {
   position: relative;
   background-color: #181615;
@@ -1970,7 +1966,7 @@ p {
   background-color: #181615;
 }
 
-.question {
+#question {
   font-size: x-large;
 }
 
@@ -2153,6 +2149,10 @@ p {
 /*===========================
        25.SERVICES css 
 ===========================*/
+#services {
+  font-size: 43px;
+}
+
 .services-area {
   background-color: #2f2b2a;
   padding-top: 115px;
